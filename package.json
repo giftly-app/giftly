@@ -1,0 +1,34 @@
+{
+  "name": "giftly",
+  "version": "0.0.2",
+  "description": "A free gift idea generator app for any occasion",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "npm run prepare && ./node_modules/mocha/bin/mocha test/ --recursive --timeout=10000",
+    "prepare": "node -e 'require(`prepare-package`)'"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giftly/giftly"
+  },
+  "keywords": [
+    "giftly",
+    "gift idea generator",
+    "gift ideas",
+    "nodejs",
+    "front end"
+  ],
+  "author": "ITW Creative Works",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giftly/giftly/issues"
+  },
+  "homepage": "https://giftly.app",
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "prepare-package": "^0.0.12"
+  }
+}

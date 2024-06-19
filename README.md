@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://cdn.itwcreativeworks.com/assets/giftly/images/logo/giftly-brandmark-black-x.svg">
+  <a href="https://giftly.app">
     <img src="https://cdn.itwcreativeworks.com/assets/giftly/images/logo/giftly-brandmark-black-x.svg" width="100px">
   </a>
 </p>
@@ -24,17 +24,17 @@
   <strong>giftly</strong> is the official npm module of <a href="https://giftly.app">Giftly</a>, a free gift idea generator app for any occasion!
 </p>
 
-## Giftly Works in Node AND browser environments
+## 🌐 Giftly Works in Node AND browser environments
 Yes, this module works in both Node and browser environments, including compatibility with [Webpack](https://www.npmjs.com/package/webpack) and [Browserify](https://www.npmjs.com/package/browserify)!
 
-## Features
+## 🦄 Features
 * Getting proxy lists
 
-### Getting an API key
-You can use so much of `giftly` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Giftly account](https://giftly.app/authentication/signup).
+### 🔑 Getting an API key
+You can use so much of `giftly` for free, but if you want to do some advanced stuff, you'll need an API key. You can get one by [signing up for a Giftly account](https://giftly.app/signup).
 
-## Install Giftly
-### Install via npm
+## 📦 Install Giftly
+### Option 1: Install via npm
 Install with npm if you plan to use `giftly` in a Node project or in the browser.
 ```shell
 npm install giftly
@@ -48,7 +48,7 @@ const giftly = new (require('giftly'))({
 });
 ```
 
-### Install via CDN
+### Option 2: Install via CDN
 Install with CDN if you plan to use Giftly only in a browser environment.
 ```html
 <script src="https://cdn.jsdelivr.net/npm/giftly@latest/dist/index.min.js"></script>
@@ -60,29 +60,29 @@ Install with CDN if you plan to use Giftly only in a browser environment.
 </script>
 ```
 
-### Use without installation
+### Option 3: Use without installation
 You can use `giftly` in a variety of ways that require no installation, such as `curl` in terminal/shell. See the **Use without installation** section below.
 
-## Using Giftly
+## ⚡️ Using Giftly
 After you have followed the install step, you can start using `giftly` to get gift ideas for any occasion!
 
 For a more in-depth documentation of this library and the Giftly service, please visit the official Giftly website.
 
-## Use without installation
+## 🔧 Use without installation
 ### Use Giftly with `curl`
 ```shell
 # Standard
 curl -X POST https://api.giftly.app
 ```
 
-## What Can Giftly do?
+## 📝 What Can Giftly do?
 Giftly is a [free gift idea generator](https://giftly.app) app for any occasion!
 
-## Final Words
+## 🗨️ Final Words
 If you are still having difficulty, we would love for you to post
 a question to [the Giftly issues page](https://github.com/giftly/giftly/issues). It is much easier to answer questions that include your code and relevant files! So if you can provide them, we'd be extremely grateful (and more likely to help you find the answer!)
 
-## Projects Using this Library
+## 📚 Projects Using this Library
 * coming soon!
 
 Ask us to have your project listed! :)
